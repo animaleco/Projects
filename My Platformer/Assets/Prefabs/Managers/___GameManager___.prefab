@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6558605203771109680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5432472334500674408}
+  - component: {fileID: 4301169256065016657}
+  m_Layer: 0
+  m_Name: ___GameManager___
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5432472334500674408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558605203771109680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.9796101, y: 1.6838398, z: -0.10817331}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4301169256065016657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558605203771109680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee806de2a377f54e9bf0708f2cdfbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelTimer: 0
+  currentLevelIndex: 0
+  fruitsAreRandom: 0
+  fruitsCollected: 0
+  totalFruits: 0
+  fruitParent: {fileID: 0}
+  canReactivate: 1
+  audioManager: {fileID: 8440630246227670286, guid: 2809dbd8fc10b9945a7eff4605474198, type: 3}
+  playerManager: {fileID: 4176188850715409594, guid: 331510c92e81ce045a75ceac5d230c9c, type: 3}
+  skinManager: {fileID: 2494338539146020880, guid: f72d9a5e4b1b0114b928438a1e9f0f2f, type: 3}
+  difficultyManager: {fileID: 1309257914350893962, guid: 361e53a8e8af61b47bb259055d0e3868, type: 3}
+  objectcreator: {fileID: 957539141388332750, guid: 88ecfbe9ef45cdf4b818feec7e080eb3, type: 3}
